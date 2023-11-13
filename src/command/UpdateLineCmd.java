@@ -6,10 +6,9 @@ import mvc.Line;
 import mvc.Point;
 
 public class UpdateLineCmd implements Command {
-	private Line line;
-	private Line newState;
-	
-	private Line original = new Line();
+	 Line line;
+	 Line newState;
+	 Line original = new Line();
 	
 	public UpdateLineCmd(Line line, Line newState) {
 		this.line = line;
