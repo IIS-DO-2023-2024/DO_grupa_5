@@ -21,7 +21,6 @@ public class TestAdapter {
 		car.goFaster();
 		plane.goFaster();
 		train.goFaster();
-		boat.rowFaster();
 		boatAdapter.goFaster();
 	}
 
